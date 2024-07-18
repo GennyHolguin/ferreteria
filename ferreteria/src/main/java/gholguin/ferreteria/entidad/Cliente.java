@@ -1,7 +1,9 @@
 package gholguin.ferreteria.entidad;
 
 
-public class Cliente implements  IAdministarCompra {
+import gholguin.ferreteria.gestioncliente.IGestionarCompra;
+
+public class Cliente implements IGestionarCompra {
     private int id;
     private String nombre;
     private String direccion;
